@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcv_content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="16dp"
@@ -25,7 +26,7 @@
             android:layout_height="match_parent"
             android:layout_margin="16dp">
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/til_nome"
+                android:id="@+id/tv_nome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -33,23 +34,23 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text = "Adenilson Ricardo Bernardes"/>
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/til_telefone"
+                android:id="@+id/tv_telefone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/til_nome"
+                app:layout_constraintTop_toBottomOf="@id/tv_nome"
                 tools:text="Telefone" />
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/til_email"
+                android:id="@+id/tv_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/til_telefone"
+                app:layout_constraintTop_toBottomOf="@id/tv_telefone"
                 tools:text="E-mail" />
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/tv_nome_Empresa"
+                android:id="@+id/tv_nome_empresa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
